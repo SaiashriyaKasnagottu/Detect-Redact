@@ -13,7 +13,7 @@ function UploadFiles({ uploadedFiles, setUploadedFiles, setSelectedFile }) {
       setUploadedFiles((prev) => [...prev, file]);
     }
   };
-
+  
   return (
     <div className="upload-container">
       {/* Header */}
